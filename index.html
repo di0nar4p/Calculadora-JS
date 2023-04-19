@@ -10,101 +10,101 @@
     <title>Calculadora</title>
 </head>
 
-<body>
-    <main>
-        <section>
-            <table>
-                <thead>
-                    <tr>
+    <body>
+        <main>
+            <section>
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="4">
+                                <p id="history">
+                                </p>
+                            </th>
+                        </tr>
                         <th colspan="4">
-                            <p id="history">
-                            </p>
+                            <div>
+                                <p id="visor">
+
+                                </p>
+                            </div>
                         </th>
-                    </tr>
-                    <th colspan="4">
-                        <div>
-                            <p id="visor">
+                    </thead>
 
-                            </p>
-                        </div>
-                    </th>
-                </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <!-- Falta implementar -->
 
-                <tbody>
-                    <tr>
-                        <td>
-                            <!-- Falta implementar -->
+                            </td>
+                            <td class="teste">M</td>
+                            <td onclick="keyboard('C')">C</td>
+                            <td>←</td>
+                        </tr>
+                        <tr>
 
-                        </td>
-                        <td class="teste">M</td>
-                        <td>C</td>
-                        <td>←</td>
-                    </tr>
-                    <tr>
+                            <td onclick="keyboard(7)">
+                                7
+                            </td>
 
-                        <td onclick="keyboard(7)">
-                            7
-                        </td>
+                            <td onclick="keyboard(8)">
+                                8
+                            </td>
 
-                        <td onclick="keyboard(8)">
-                            8
-                        </td>
-
-                        <td onclick="keyboard(9)">
-                            9
-                        </td>
-                        <td onclick="keyboard('÷')">
-                            ÷
-                        </td>
+                            <td onclick="keyboard(9)">
+                                9
+                            </td>
+                            <td onclick="keyboard('÷')">
+                                ÷
+                            </td>
 
 
-                    </tr>
-                    <tr>
-                        <td onclick="keyboard(4)">
-                            4
-                        </td>
-                        <td onclick="keyboard(5)">
-                            5
-                        </td>
-                        <td onclick="keyboard(6)">
-                            6
-                        </td>
-                        <td onclick="keyboard('x')">
-                            x
-                        </td>
-                    </tr>
-                    <tr>
-                        <td onclick="keyboard(1)">
-                            1
-                        </td>
-                        <td onclick="keyboard(2)">
-                            2
-                        </td>
-                        <td onclick="keyboard(3)">
-                            3
-                        </td>
-                        <td id="sub">
-                            -
-                        </td>
-                    </tr>
+                        </tr>
+                        <tr>
+                            <td onclick="keyboard(4)">
+                                4
+                            </td>
+                            <td onclick="keyboard(5)">
+                                5
+                            </td>
+                            <td onclick="keyboard(6)">
+                                6
+                            </td>
+                            <td onclick="keyboard('x')">
+                                x
+                            </td>
+                        </tr>
+                        <tr>
+                            <td onclick="keyboard(1)">
+                                1
+                            </td>
+                            <td onclick="keyboard(2)">
+                                2
+                            </td>
+                            <td onclick="keyboard(3)">
+                                3
+                            </td>
+                            <td rowspan="2" onclick="keyboard('-')">
+                                -
+                            </td>
+                        </tr>
 
-                    <tr>
-                        <td colspan="2" id="zero">
-                            0
-                        </td>
-                        <td id="virg">
-                            ,
-                        </td>
-                        <td id="result">
-                            =
-                        </td>
+                        <tr>
+                            <td onclick="keyboard(0)">
+                                0
+                            </td>
+                            <td onclick="keyboard('virg')">
+                                ,
+                            </td>
+                            <td onclick="keyboard('result')">
+                                =
+                            </td>
 
-                    </tr>
-                </tbody>
+                        </tr>
+                    </tbody>
 
-            </table>
-        </section>
-    </main>
-</body>
+                </table>
+            </section>
+        </main>
+    </body>
 
 </html>
