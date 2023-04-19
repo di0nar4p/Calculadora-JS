@@ -27,8 +27,8 @@ td,th{
 
 td{
     transition-property: background-color;
-    transition-duration: 100ms;
-    transition-delay: 30ms;
+    transition-duration: 50ms;
+    transition-delay: 20ms;
     -webkit-touch-callout: none;  
     -webkit-user-select: none;    
     -khtml-user-select: none;    
