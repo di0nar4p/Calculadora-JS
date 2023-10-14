@@ -28,3 +28,5 @@ elif cauculo == 'X':
  print(Fore.GREEN +F'O resultado è {numbers * numbers:.2f}')
 else:
  print( Fore.RED+'operaçäo INVALIDA ')
+
+print('Valeu pot ter usado')
