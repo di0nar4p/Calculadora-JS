@@ -1,4 +1,4 @@
-import imp
+
 from colorama import Fore
 
 def caucularadora ():
@@ -29,4 +29,4 @@ elif cauculo == 'X':
 else:
  print( Fore.RED+'operaçäo INVALIDA ')
 
-print('Valeu pot ter usado')
+print('Valeu por ter usado')
